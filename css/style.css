@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+.row-m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    padding-left: 3em;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+span {
+    color: #008AFF;
+}
+.text-center {
+    /* margin: auto; */
+    text-align: center;
+}
+.gap{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.hero h1 {
+    /* color: red; */
+    font-size: 50px;
+    width: 709px;
+    margin: auto;
+}
+.hero{
+
+}
+.hero p {
+    width: 709px;
+    margin: auto;
+    margin-top: 1em;
+}
+.hero img {
+    margin: auto;
+    width: 511px;
+    margin-top: 3em;
+}
+
+a:hover {
+    color: #008aff;
+    font-size: 18px;
+}
+
+.row-3k {
+    display: flex;
+    margin: auto;
+    width: 49em;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3em; */
+    /* margin: 4em; */
+    margin-bottom: 3em;
+    margin-top: 6em;
+}
+
+.col-3kl {
+    text-align: end;
+    margin-right: 3em;
+}
+.col-3kl h1 {
+    color: #F15767;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+}
+.col-3kr h1 {
+    color: #0f2656;
+    font-size: 39px;
+}
+
+ .col-3kl   p {
+    font-size: 20px;
+}
+.row-c{
+    display: flex;
+
+}
+.col-c img {
+    max-width: 100%;
+}
+.col-c {
+    /* background-color: red; */
+    border-style: solid;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border-width: 1px;
+    border-color: #b5b5b5;
+    border-radius: 12px;
+     width: 40em;
+    
+}
+.footer span {
+    color: white;
+    font-weight: 700;
+}
+.footer {
+    background-color: #008aff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.colour-1 {
+    background-color: #fdebed;
+}
+.colour-2 {
+    background-color: #ebf9f4;
+}
+.colour-3 {
+    background-color: #fff7e8;
+}
+
+.services {
+    text-align: center;
+    margin-top: 12em;
+    margin-bottom: 7em;
+}
+ .services h3 {
+    margin-bottom: 0px;
+    color: #008aff;
+}
+.icons{
+    display: flex;
+
+}
+.icon-1 {
+    /* margin: auto; */
+    text-align: center;
+    padding: 2em;
+}
+.com{
+    display: flex;
+}
+.Comunity-section {
+    background-color: black;
+    color: white;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.space {
+    height: 15em;
+}
+.rowp {
+    display: flex;
+    align-items: center;
+}
+.rowin{
+    display: flex;
+}
+.colin img {
+    max-width: 100%;
+    /* padding: 4em; */
+}
+.colin{
+    
+flex-basis: 38%;
+    
+padding: 3em;
+    
+margin: 1em;
+    
+box-shadow: 0px 1px 17px 0px #85cfd39e;
+    
+border-radius: 1em;
+}
+.colpl h4 {
+    color: #008aff;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.colpl h1{
+    
+}
+.colpl p{
+    
+}
+.colpl {
+    margin-right: 10em;
+}
+.colin h3 {
+    /* align-items: center; */
+    padding-top: 2em;
+    text-align: center;
+}
+.colpl a{
+
+    background-color: #008aff;
+    color: wi;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 10px;
+
+}
+.colpl p {
+    margin-bottom: 3em;
+}
+.colpl a:hover {
+    background-color: #ffffff;
+    color: wi;
+    color: #008aff;
+    padding: 1em 2em;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+.row-foot {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-up{
+    background-color: #e2dbff;
+}
+.col-foot a {
+    color: #222222;
+    padding: 0;
+    margin: 0;
+}
+.col-foot a:hover {
+    color: #008aff;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.col-foot {
+    flex-basis: 10%;
+    text-align: center;
+    /* width: 18em; */
+}
+.col-foot h5 {
+    font-size: 21px;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+.last-foot {
+    background-color: black;
+    padding: 0.5em;
+    text-align: center;
+    color: white;
+}
